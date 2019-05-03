@@ -1,0 +1,23 @@
+{
+  "name": "xenforo",
+  "version": "0.1.0-alpha.1",
+  "description": "XenForo 2.1.x+ REST API for Node.js",
+  "main": "dist/index.js",
+  "repository": "git@github.com:FNCxPro/node-xenforo.git",
+  "author": "Seth Stephens <seth@sethstephens.me>",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "yarn build-ts",
+    "watch": "yarn watch-ts",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "dependencies": {
+    "node-fetch": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/node-fetch": "^2.3.3",
+    "typescript": "^3.4.5"
+  }
+}
